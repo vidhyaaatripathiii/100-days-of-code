@@ -11,21 +11,22 @@ int main()
 
     // First check if the number is 0 or not
     if (num >= 0)
-    {
+    
         // Nested if-else
-        if (num == 0)
-        {
-            printf("The number is zero.");
-        }
-        else
-        {
-            printf("The number is positive.");
-        }
-    }
+         { 
+            if (num == 0)
+        
+                printf("The number is zero.");
+    
+            else
+    
+                printf("The number is positive.");
+         }
     else
-    {
+    
         printf("The number is negative.");
-    }
+    
 
     return 0;
 }
+
