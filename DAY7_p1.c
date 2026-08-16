@@ -1,3 +1,5 @@
+//Write a program to input a year and check whether it is a leap year or not using conditional statements
+
 #include <stdio.h>
 
 int main()
@@ -10,21 +12,21 @@ int main()
     // A leap year is divisible by 400
     // OR divisible by 4 but not divisible by 100
     if (year % 400 == 0)
-    {
+    
         printf("%d is a leap year.", year);
-    }
+    
     else if (year % 100 == 0)
-    {
+    
         printf("%d is not a leap year.", year);
-    }
+
     else if (year % 4 == 0)
-    {
+
         printf("%d is a leap year.", year);
-    }
+
     else
-    {
+
         printf("%d is not a leap year.", year);
-    }
+
 
     return 0;
 }
