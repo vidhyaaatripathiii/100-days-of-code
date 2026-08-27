@@ -6,24 +6,24 @@
 The space character uses ASCII value 32. You can view the visual character by using %c or the numerical 
 code using %d that treats the variable as a decimal integer */
 
-#include <Stdio.h>
+#include <stdio.h>
 
 int main()
 {
     char ch;
 
-    print("Enter a character: ");
-    scanf(" %c", &ch);
+    printf("Enter a character: ");
+    scanf("%c", &ch);
 
-    if (ch >="A" && ch<= "Z")
+    if (ch >= 'A' && ch <= 'Z')
     {
         printf("uppercase alphabet");
     }
-    else if (ch >="a" && ch<= "z")
+    else if (ch >= 'a' && ch <= 'z')
     {
         printf("lowercase alphabet");
     }
-    else if (ch >="0" && ch<= "9")
+    else if (ch >= '0' && ch <= '9')
     {
         printf("digit");
     }
@@ -31,5 +31,7 @@ int main()
     {
         printf("Special character");
     }
+
     return 0;
 }
+
